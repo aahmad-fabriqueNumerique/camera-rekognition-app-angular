@@ -1,0 +1,41 @@
+<div style="height: 100px"></div>
+
+<div class="container bg-light p-5" style="border-radius: 15px;">
+
+  <div class="row title">
+    <h2>Instructions de prise de vues</h2>
+  </div>
+
+  <div class="">
+    <p>Pour obtenir de meilleurs resultats possibles et éventuellement une reconnaissance faciale sure, veuillez
+      respecter les intructions suivantes:</p>
+    <div *ngFor="let instruction of instructions" >
+      <p>{{instruction.text}}</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col d-flex justify-content-between mt-5">
+      <img class="model" src="assets/images/model-photos/model-1.png" alt="">
+      <img class="model" src="assets/images/model-photos/model-2.png" alt="">
+      <img class="model" src="assets/images/model-photos/model-3.png" alt="">
+      <img class="model" src="assets/images/model-photos/model-4.png" alt="">
+      <img class="model" src="assets/images/model-photos/model-5.png" alt="">
+    </div>
+    <div class="row mt-4">
+      <p style="font-weight: bold">Si vous rencontrez un problème technique ou vous avez d'autres questions, veuillez
+        appeler le technicien responsable au 06 17 18 13 91. il sera ravi de répondre à toutes vos questions.</p>
+    </div>
+  </div>
+
+  <div class="row d-flex justify-content-center demarrer-btn">
+    <button type="button" class="btn btn-success accept" routerLink="/camera">Je démarre la prise de photos</button>
+  </div>
+
+
+</div>
+
+<div class="row d-flex justify-content-between">
+  <img class="img-responsive img-2" src="../../assets/images/illustration-2.png" alt="">
+  <img class="img-responsive" src="../../assets/images/illustration-2.png" alt="">
+</div>

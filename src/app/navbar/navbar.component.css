@@ -1,0 +1,31 @@
+nav {
+  background: linear-gradient(to right,#21a1c9,#00a380);;
+}
+.nav-item{
+    padding:2px;
+    margin-left: 7px;
+}
+
+a {
+    color: rgb(219, 219, 219);
+    /* font-weight:bold; */
+    letter-spacing: .1em;
+    font-size: 16px;
+}
+
+a:hover {
+    color: #312E63;
+}
+
+.fas{
+    font-size: 18px;
+}
+.active{
+    color: white;
+    font-weight:bold;
+}
+
+
+
+
+
